@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+body{
+    background-color: black;
+}
+body, html{
+    height: 100%;
+}
+.logo {
+    width: 80px;
+    
+}
+.navbar{
+    padding: 0;
+}
+.fixed-top {
+    position: absolute!important;
+}
+.background-img{
+    background-image: url("./imagenes/fondo.jpg");
+   ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.nav-item{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.container-pd{
+    padding-top: 150px;
+}
+.maintext p{
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+}
+.productos{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.card-body{
+    min-height: 50px;
+}
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.section-form{
+    padding-top: 70px;
+}
+.formulario {
+    width: 600px!important;
+}
+footer a{
+    margin: 0 20px;
+    font-size: 35px;
+
+}
