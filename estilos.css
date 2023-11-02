@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+    
     
 }
 body{
@@ -23,10 +23,8 @@ body, html{
 }
 .background-img{
     background-image: url("./imagenes/fondo.jpg");
-   ;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: auto;
 }
 .nav-item{
     margin-left: 20px;
@@ -68,4 +66,7 @@ footer a{
     margin: 0 20px;
     font-size: 35px;
 
+}
+p, h5{
+    font-family: 'Roboto', sans-serif;
 }
