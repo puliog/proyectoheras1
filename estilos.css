@@ -49,11 +49,11 @@ body, html{
 .card-body{
     min-height: 50px;
 }
-.card{
+.card-effect{
     transition: transform .2s;
 }
 
-.card:hover{
+.card-effect:hover{
     transform: scale(1.05);
 }
 .section-form{
